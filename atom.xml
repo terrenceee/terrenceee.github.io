@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://terrenceee.github.io</id>
     <title>Terrenceee&apos;s Blog</title>
-    <updated>2020-05-08T11:20:08.006Z</updated>
+    <updated>2020-05-08T11:26:36.844Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://terrenceee.github.io"/>
     <link rel="self" href="https://terrenceee.github.io/atom.xml"/>
@@ -16,7 +16,7 @@
         <link href="https://terrenceee.github.io/post/mac-chang-yong-raun-jian-xiu-zheng/">
         </link>
         <updated>2020-05-08T02:55:29.000Z</updated>
-        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://i.imgur.com/hWzgJw2.jpg" alt="" loading="lazy"></figure>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://i.imgur.com/uXvJTZO.jpg" alt="" loading="lazy"></figure>
 <p><a href="https://www.google.com/intl/zh-CN/chrome/">Chrome</a> : 丰富的插件系统，快速的反应速度，全球最高占有率的浏览器，吃内存大户。</p>
 <p><code>brew cask install chrome</code></p>
 <p><a href="https://nssurge.com/mac/v3/Surge-latest.zip">Surge</a> : Mac 系统中最棒的扶墙软件以及网络调试工具，虽然不是专业人士可能不用不到全部功能，但是依然推荐购买。</p>
