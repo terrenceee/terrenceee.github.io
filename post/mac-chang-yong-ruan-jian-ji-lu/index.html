@@ -1,0 +1,168 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    
+<meta charset="utf-8" >
+
+<title>Mac 常用软件记录 | Terrenceee&#39;s Blog</title>
+<meta name="description" content="一个厌世者的世间观察">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://terrenceee.github.io/favicon.ico?v=1588908853991">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://terrenceee.github.io/styles/main.css">
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
+  </head>
+  <body>
+    <div id="app" class="main">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://terrenceee.github.io">
+        <img class="avatar" src="https://terrenceee.github.io/images/avatar.png?v=1588908853991" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://terrenceee.github.io">
+        <h1 class="site-title">Terrenceee&#39;s Blog</h1>
+      </a>
+    </div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
+  </div>
+</div>
+
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
+      
+        
+          <a href="/" class="menu purple-link">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="menu purple-link">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="menu purple-link">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="menu purple-link">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+</transition>
+
+
+      <div class="content-container">
+        <div class="post-detail">
+          
+          <h2 class="post-title">Mac 常用软件记录</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2020-04-15</span>
+            
+              <span>
+                <i class="icon-pricetags-outline"></i>
+                
+                  <a href="https://terrenceee.github.io/tag/Dt5WOO3JE/">
+                    Mac
+                    
+                  </a>
+                
+              </span>
+            
+          </div>
+          <div class="post-content">
+            <p><em><a href="https://www.google.com/intl/zh-CN/chrome/">Chrome</a></em> : 丰富的插件系统，快速的反应速度，全球最高占有率的浏览器，吃内存大户。</p>
+<p><code>brew cask install chrome</code></p>
+<p><em><a href="https://nssurge.com/mac/v3/Surge-latest.zip">Surge</a></em> : Mac 系统中最棒的扶墙软件以及网络调试工具，虽然不是专业人士可能不用不到全部功能，但是依然推荐购买。</p>
+<p><code>brew cask install surge</code></p>
+<p><em><a href="https://dl.iina.io/IINA.v1.0.6.dmg">iiNA</a></em> : 功能非常强大的播放器，支持很多格式，丝滑流畅，更重要的是它还是个免费软件。</p>
+<p><code>brew cask install iina</code></p>
+<p><em><a href="https://github.com/yichengchen/clashX/releases">ClashX</a></em> ：同样很棒的扶墙软件，虽然没有 Surge 那么强，但是人家是个免费开源的软件。</p>
+<p><code>brew cask install clashx</code></p>
+<p><em><a href="https://static.pocketcasts.com/mac/PocketCasts.zip">Pocket Casts</a></em> : 老牌播客软件，在2019年转为订阅了，万幸的是在它转为订阅前我曾经购买过网页版本，于是我成为了 LifeTime  Member。终身 Plus 会员的好处就是可以可以上传文件来听，这点比 OverCast 和 Castro 要强，并且它对苹果全平台支持都很好。</p>
+<p><code>brew cask install Pocket-Casts</code></p>
+<p><em>Apple Music</em> : 没啥可说的，最大的流媒体音乐提供商之一，之前订阅过美国的 Apple Music，但是后来有点承受不起每月18元的价格，于是转向了国区。</p>
+<p><em><a href="https://www.spotify.com/hk-en/download/mac/">Spotify</a></em> :世界用户量第一名的流媒体音乐提供商，跨平台做的很棒，音源丰富，不是会员也可以听，和 Apple Music 补充使用。</p>
+<p><code>brew cask install spotify</code></p>
+<p><em><a href="https://www.obdev.at/downloads/launchbar/LaunchBar-6.12.dmg">LaunchBar</a></em> :历史悠久的 macOS 启动器，与 Alfred 并称双雄，有很多拓展功能，不过我也只是用做启动器来使用，偶尔会用下 Instant Send 功能，因为学不会 Apple Script。</p>
+<p><code>brew cask install launchbar</code></p>
+
+          </div>
+        </div>
+
+        
+          <div class="next-post">
+            <a class="purple-link" href="https://terrenceee.github.io/post/hello-gridea/">
+              <h3 class="post-title">
+                下一篇：Hello Gridea
+              </h3>
+            </a>
+          </div>
+          
+      </div>
+
+      
+
+      <div class="site-footer">
+  <div class="slogan">一个厌世者的世间观察</div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://terrenceee.github.io/atom.xml" target="_blank">RSS</a>
+</div>
+
+
+    </div>
+    <script type="application/javascript">
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+  </body>
+</html>
