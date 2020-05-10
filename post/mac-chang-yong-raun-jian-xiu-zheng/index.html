@@ -8,7 +8,7 @@ Surge : Mac 系统中最棒的扶墙软件以及网络调试工具，虽然不�
     <meta name="keywords" content="Mac" />
     <link rel="stylesheet" href="https://terrenceee.github.io/media/css/bootstrap.min.css">
     
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.1/build/styles/dracula.min.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.1/build/styles/vs2015.min.css">
               
     <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.1/build/highlight.min.js"></script>
     <link rel="stylesheet" href="https://terrenceee.github.io/media/css/live2d.css">
@@ -36,10 +36,16 @@ Surge : Mac 系统中最棒的扶墙软件以及网络调试工具，虽然不�
 <body>
     <div id=side>
         <div class="avatar-border">
-            <img src="https://terrenceee.github.io/images/avatar.png?v=1589077314952" class="avatar">
+            <img src="https://terrenceee.github.io/images/avatar.png?v=1589077453814" class="avatar">
         </div>
         <div class="sitename">Terrenceee&#39;s Blog</div>
         <span class="describtion" data-text='["一个厌世者的世间观察"]'>&nbsp;</span>
+        
+        <div class="search">
+            <!-- <input type="text" class="search-input" placeholder="标题搜索(●'◡'●)" /> -->
+            <input type="text" class="search-input" placeholder="标题搜索 ⚆_⚆ つ♡">
+            <div class="search-results"></div>
+        </div>
         
     <div class="share-button">
         <span>社交按钮</span>
@@ -85,11 +91,15 @@ Surge : Mac 系统中最棒的扶墙软件以及网络调试工具，虽然不�
     
     
     
+        <div class="mchocie describtion">
+            <a href="https://terrenceee.github.io/friends" class="menubutton">友人帐</a>
+        </div>
+    
     <hr>
     <div id="footinfo">Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | Theme: <a href="https://github.com/850552586/gridea-theme-fog">Fog</a></div>
     <div id="sitegotimeDate">载入天数...</div>
     <div id="sitegotimes">载入时分秒...</div>
-    <div id="cussitetime" style="display:none"></div>
+    <div id="cussitetime" style="display:none">02/02/2020</div>
     </div>
 </body>
 
@@ -274,7 +284,7 @@ Surge : Mac 系统中最棒的扶墙软件以及网络调试工具，虽然不�
         <div class="postshow">
             
             <div class="postdetailimg" style="width:100%;overflow: hidden;display: none">
-                <img src="" class="postimage">
+                <img src="/media/images/postdefault.png" class="postimage">
             </div>
             <div class="postinfo">
                 <div class="postdate"><i class="fa fa-calendar"></i>2020-05-08</div>
@@ -375,7 +385,7 @@ Surge : Mac 系统中最棒的扶墙软件以及网络调试工具，虽然不�
         </div>
         <div id="bg">
         </div>
-        <div id="bgurl" style="display:none"></div>
+        <div id="bgurl" style="display:none">/media/images/bgimg.png</div>
     </div>
     <!-- 响应式布局，针对手机端内容显示 -->
     <div class="nav-small">
@@ -437,6 +447,9 @@ Surge : Mac 系统中最棒的扶墙软件以及网络调试工具，虽然不�
           
           
           
+          <li><a href="https://terrenceee.github.io/friends">友链</a></li>
+
+          
         </ul>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
@@ -459,7 +472,7 @@ Surge : Mac 系统中最棒的扶墙软件以及网络调试工具，虽然不�
         <div class="postshow">
             
             <div class="postdetailimg" style="width:100%;overflow: hidden;display: none">
-                <img src="" class="postimage">
+                <img src="/media/images/postdefault.png" class="postimage">
             </div>
             <div class="postinfo">
                 <div class="postdate"><i class="fa fa-calendar"></i>2020-05-08</div>
@@ -562,3 +575,13 @@ Surge : Mac 系统中最棒的扶墙软件以及网络调试工具，虽然不�
     hljs.initHighlightingOnLoad()
 </script>
 <script src="https://terrenceee.github.io/media/js/post.js"></script>
+
+<script type="text/javascript">
+    var message_Path = '/live2d/'
+    var home_Path = 'http://ericam.top/' //此处修改为你的域名，必须带斜杠
+</script>
+<script type="text/javascript" src="https://terrenceee.github.io/media/live2d/js/live2d.js"></script>
+<script type="text/javascript" src="https://terrenceee.github.io/media/live2d/js/message.js"></script>
+<script type="text/javascript">
+    loadlive2d("live2d", "https://terrenceee.github.io/media/live2d/assets/tororo.model.json");
+</script>
